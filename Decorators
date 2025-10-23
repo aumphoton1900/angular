@@ -10,3 +10,6 @@ https://www.netjstech.com/2021/04/angular-output-decorator-with-examples.html
 A property in a Component that emits a custom event is decorated with @Output decorator. For example in the statement
 @Output() messageEvent = new EventEmitter<string>();
 
+messageEvent property is decorated with @Output() which means this property is going to emit a custom event. That is why this property is of type EventEmitter.
+
+
