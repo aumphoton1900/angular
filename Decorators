@@ -4,3 +4,9 @@ The @Output decorator in Angular is used to create custom events that allow a ch
 to send data to its parent component. 
 It works with EventEmitter to emit events that the parent can listen to.
 https://www.netjstech.com/2021/04/angular-output-decorator-with-examples.html
+
+1. @Output decorator
+
+A property in a Component that emits a custom event is decorated with @Output decorator. For example in the statement
+@Output() messageEvent = new EventEmitter<string>();
+
